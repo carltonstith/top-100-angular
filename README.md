@@ -1,5 +1,13 @@
-# Top100Angular
+# Top 100 Angular
 
+<!--- These are examples. See https://shields.io for others or to customize this set of shields. You might want to include dependencies, project status and licence info here --->
+![GitHub issues](https://img.shields.io/github/issues/carltonstith/top-100-angular)
+![GitHub stars](https://img.shields.io/github/stars/carltonstith/top-100-angular)
+![GitHub forks](https://img.shields.io/github/forks/carltonstith/top-100-angular)
+![GitHub Follow](https://img.shields.io/github/followers/carltonstith?style=social)
+![Twitter Follow](https://img.shields.io/twitter/follow/carltonstith?style=social)
+
+A list of my top 100 hip-hop albums of all time.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.1.
 [Top 50 Greatest Hip-Hop Albums of All Time Reference](https://definitivedose.com/the-50-greatest-hip-hop-albums-of-all-time/)
 

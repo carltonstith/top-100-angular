@@ -42,7 +42,7 @@ export class AlbumListComponent implements OnInit {
       "releaseDate": "December 15, 1992",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eros lectus, sodales vitae auctor sit amet, pellentesque nec quam. Phasellus vitae dictum odio. Nam rhoncus maximus pharetra. Praesent hendrerit mi convallis ligula scelerisque, at pretium nisi maximus. Mauris sagittis vehicula tincidunt. Vestibulum eu nibh ac nunc volutpat porttitor. Nullam sed risus est. Nulla eget massa sed odio lobortis dictum. Proin sit amet justo sapien. Aenean at ex condimentum, eleifend tellus eget, lacinia sem. Nulla facilisis tincidunt luctus. Nam lorem lectus, dictum ac metus et, varius eleifend arcu. Cras hendrerit purus a turpis fringilla semper.",
       "price": 10.99,
-      "starRating": 4.1,
+      "starRating": 2.8,
       "imageUrl": "assets/images/dr-dre-the-chronic.jpg"
     },
     {
