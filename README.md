@@ -1,6 +1,7 @@
 # Top100Angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.1.
+[Top 50 Greatest Hip-Hop Albums of All Time Reference](https://definitivedose.com/the-50-greatest-hip-hop-albums-of-all-time/)
 
 ## Development server
 
