@@ -47,7 +47,7 @@
           <td>{{ album.releaseDate }}</td>
           <td>{{ album.price | currency: 'USD': 'symbol':'1.2-2' }}</td>
           <td>
-            <am-star [rating]='album.starRating'></am-star>
+            <am-star [rating]='album.starRating' (ratingClicked)='onRatingClicked($event)'></am-star>
           </td>
         </tr>
       </tbody>
