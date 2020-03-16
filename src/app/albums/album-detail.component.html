@@ -1,0 +1,52 @@
+<div class="card">
+  <div class="card-header">
+    {{ pageTitle + ': ' + album.albumTitle }}
+  </div>
+  <div class="card-body">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="row">
+          <div class="col-md-4">Title:</div>
+          <div class="col-md-8">{{album.albumTitle}}</div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">Artist:</div>
+          <div class="col-md-8">{{ album.artist }}</div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">Description:</div>
+          <div class="col-md-8">{{ album.description }}</div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">Release Date:</div>
+          <div class="col-md-8">{{ album.releaseDate }}</div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">Price:</div>
+          <div class="col-md-8">{{ album.price }}</div>
+        </div>
+        <div class='row'>
+          <div class='col-md-4'>5 Mic Rating:</div>
+          <div class='col-md-8'>
+            <am-star [rating]='album.starRating'>
+            </am-star>
+          </div>
+        </div>
+      </div>
+      <div class='col-md-4'>
+        <img class='center-block img-responsive'
+             [style.width.px]='200'
+             [style.margin.px]='2'
+             [src]='album.imageUrl'
+             [title]='album.albumTitle'>
+      </div>
+    </div>
+  </div>
+  <div class='card-footer'>
+    <button class='btn btn-outline-secondary'
+            (click)='onBack()'
+            style='width:80px'>
+      <i class='fa fa-chevron-left'></i> Back
+    </button>
+  </div>
+</div>

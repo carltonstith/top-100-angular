@@ -8,23 +8,35 @@ import { AppComponent } from './app.component';
 import { AlbumListComponent } from './albums/album-list.component';
 import { ConvertToSpacesPipe } from './shared/convert-to-spaces.pipe';
 import { StarComponent } from './shared/star.component';
+import { WelcomeComponent } from './home/welcome.component';
+import { AlbumDetailComponent } from './albums/album-detail.component';
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
 import { fromEventPattern } from 'rxjs';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
     AppComponent,
     AlbumListComponent,
     ConvertToSpacesPipe,
-    StarComponent
+    StarComponent,
+    AlbumDetailComponent,
+    WelcomeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     FontAwesomeModule,
-    HttpClientModule
+    HttpClientModule,
+    RouterModule.forRoot([
+      { path: 'albums', component: AlbumListComponent },
+      { path: 'albums/:id', component: AlbumDetailComponent },
+      { path: 'welcome', component: WelcomeComponent },
+      { path: '', redirectTo: 'welcome', pathMatch: 'full' },
+      { path: '**', redirectTo: 'welcome', pathMatch: 'full' }
+    ])
   ],
   providers: [],
   bootstrap: [AppComponent]

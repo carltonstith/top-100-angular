@@ -3,7 +3,6 @@ import { IAlbum } from './album';
 import { AlbumService } from './album.service';
 
 @Component({
-  selector: 'am-albums',
   templateUrl: './album-list.component.html',
   styleUrls: ['./album-list.component.css']
 })

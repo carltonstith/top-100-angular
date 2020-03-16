@@ -4,3 +4,9 @@ th {
 thead {
   background: #EFEFF7;
 }
+.container {
+  margin-top: 7em;
+}
+.card-body {
+  padding: 0;
+}
