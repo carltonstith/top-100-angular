@@ -27,5 +27,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  pageTitle: string = 'Top 100 Hip-Hop Albums - Angular Project';
+  pageTitle: string = 'Top 100 Hip-Hop Albums';
 }

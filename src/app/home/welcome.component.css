@@ -1,0 +1,20 @@
+.card {
+  border: none;
+}
+.background {
+  width: 100%;
+  height: 100vh;
+  background: url('../../assets/images/hiphopgoldenage-top-100-albums-hhga.jpg') no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+.color-overlay {
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: .7;
+  position: absolute;
+}
+
